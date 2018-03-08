@@ -1,28 +1,97 @@
 <!doctype html>
 <html>
 <head>
-  <title>리틀 포레스트: 줄거리</title>
+  <title>Movie Recommendation: Romance</title>
   <meta charset="utf-8">
+  <style>
+
+     #title{
+       color: coral;
+     }
+    a {
+      color:black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    p{
+      font-size: 18px;
+    }
+    .saw{
+      color: gray;
+    }
+    .menu{
+    font-size: 25px;
+  }
+    .title{
+      font-size: 20px;
+    }
+    h1{
+      font-size: 60px;
+      text-align: center;
+    }
+    h2{
+      margin: 20px;
+      padding: 20px;
+      font-size: 40px;
+      color: #6B9900;
+    }
+    #menu{
+      display:grid;
+      border-top: 3px solid white;
+      border-right: 3px solid white;
+      display: inline-block;
+    }
+    #romance{
+      display: grid;
+      border-top: 3px solid white;
+      border-left: 3px solid white;
+      font-size: 20px;
+      display: inline-block;
+    }
+    gird{
+      display: grid;
+      grid-template-columns: ;
+    }
+
+    body{
+      background-color: #FAED7D;
+    }
+  </style>
 </head>
-
 <body>
-  <h1><a href="index.html">리틀포레스트</a></h1>
-<ol>
-  <li><a href="1.html">줄거리</a></li>
-  <li><a href="2.html">등장인물</a></li>
-  <li><a href="3.html">리뷰</a></li>
-</ol>
-<h1>줄거리</h1>
-<p style="margin-top: 40px;">시험, 연애, 취업… 뭐하나 뜻대로 되지 않는 일상을 잠시 멈추고
- 고향으로 돌아온 혜원은 오랜 친구인 재하와 은숙을 만난다</p>
-
- <p style="margin-top: 40px;">남들과는 다른, 자신만의 삶을 살기 위해 고향으로 돌아온 ‘재하’,
- 평범한 일상에서의 일탈을 꿈꾸는 ‘은숙’과 함께
- 직접 키운 농작물로 한끼 한끼를 만들어 먹으며
- 겨울에서 봄, 그리고 여름, 가을을 보내고 다시 겨울을 맞이하게 된 혜원.</p>
-
-<p style="margin-top: 40px;"> 그렇게 특별한 사계절을 보내며 고향으로 돌아온 진짜 이유를 깨닫게 된 혜원은
- 새로운 봄을 맞이하기 위한 첫 발을 내딛는데…</p>
+  <h1><a href="index.html" id="title">Movie Recommendation</a></h1>
 <br><br>
+
+<h2>Romance</h2>
+<br>
+<div id="grid">
+  <div id="menu">
+    <ul>
+     <li><a href="1.html" class="menu">Romance</a></li>
+     <li><a href="2.html" class="menu">Science Fiction</a></li>
+     <li><a href="3.html" class="menu">Thriller</a></li>
+    </ul>
+  </div>
+
+  <div id="romance">
+    <p style="margin-top: 40px;">
+      <div style="float:left; width:300px;"><img src="about.jpg" width="100%"></div>
+      <br><br>
+      <div class="title" style="float:right; text-align: right;"><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=92075" target="_blank" title="about time">About Time</a></strong></div>
+      <br><br>
+      Rate: 9.22<br>
+      Release Date: 2013.12.05<br>
+      Director: Richard Curtis<br><br>
+   </p>
+    <p style="margin-top: 40px;">
+    <div style="float:left; width:300px;"><img src="me.jpg" width="100%"></div>
+    <br><br>
+    <div class="title" style="float:right; text-align: right;"><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=137915" target="_blank" title="me before you">Me Before You</a></strong></div>
+    <br><br>
+    Rate: 8.78 <br>
+    Release Date: 2016.06.01<br>
+    Director: Thea SHARROCK</p>
+  </div>
+</div>
 </body>
 </html>

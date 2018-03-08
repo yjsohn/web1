@@ -1,20 +1,97 @@
 <!doctype html>
 <html>
 <head>
-  <title>리틀 포레스트: 리뷰</title>
+  <title>Movie Recommendation: Thriller</title>
   <meta charset="utf-8">
+  <style>
+
+     #title{
+       color: coral;
+     }
+    a {
+      color:black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    p{
+      font-size: 18px;
+    }
+    .saw{
+      color: gray;
+    }
+    .menu{
+    font-size: 25px;
+  }
+    .title{
+      font-size: 20px;
+    }
+    h1{
+      font-size: 60px;
+      text-align: center;
+    }
+    h2{
+      margin: 20px;
+      padding: 20px;
+      font-size: 40px;
+      color: #6B9900;
+    }
+    #menu{
+      display:grid;
+      border-top: 3px solid white;
+      border-right: 3px solid white;
+      display: inline-block;
+    }
+    #th{
+      display: grid;
+      border-top: 3px solid white;
+      border-left: 3px solid white;
+      font-size: 20px;
+      display: inline-block;
+    }
+    gird{
+      display: grid;
+      grid-template-columns: ;
+    }
+
+    body{
+      background-color: #FAED7D;
+    }
+  </style>
 </head>
-
 <body>
-  <h1><a href="index.html">리틀포레스트</a></h1>
-<ol>
-  <li><a href="1.html">줄거리</a></li>
-  <li><a href="2.html">등장인물</a></li>
-  <li><a href="3.html">리뷰</a></li>
-</ol>
-<h1>리뷰</h1>
-<p style="margin-top: 40px;">추후에 등록 예정ㅋㅋㅋ</p>
+  <h1><a href="index.html" id="title">Movie Recommendation</a></h1>
+<br><br>
 
- <br><br>
+<h2>Thriller</h2>
+<br>
+<div id="grid">
+  <div id="menu">
+    <ul>
+     <li><a href="1.html" class="menu">Romance</a></li>
+     <li><a href="2.html" class="menu">Science Fiction</a></li>
+     <li><a href="3.html" class="menu">Thriller</a></li>
+    </ul>
+  </div>
+
+  <div id="th">
+    <p style="margin-top: 40px;">
+      <div style="float:left; width:300px;"><img src="23.jpg" width="100%"></div>
+      <br><br>
+      <div class="title" style="float:left; text-align: center;"><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=144927" target="_blank" title="split">SPLIT</a></strong></div>
+      <br><br>
+      Rate: 7.94<br>
+      Release Date: 2017.02.22<br>
+      Director: M. Night Shyamalan<br><br>
+   </p>
+    <p style="margin-top: 40px;">
+    <div style="float:left; width:300px;"><img src="taken.jpg" width="100%"></div>
+    <br><br>
+    <div class="title" style="float:right; text-align: right;"><a href="http://movie.naver.com/movie/bi/mi/photoView.nhn?code=47152" target="_blank" title="taken">TAKEN</a></strong></div>
+    <br><br>
+    Rate: 9.20 <br>
+    Release Date: 2008.04.09<br>
+    Director: Pierre Morel</p>
+  </div>
+</div>
 </body>
 </html>

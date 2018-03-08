@@ -1,28 +1,94 @@
 <!doctype html>
 <html>
 <head>
-  <title>리틀 포레스트: 등장인물</title>
+  <title>Movie Recommendation: SF</title>
   <meta charset="utf-8">
+  <style>
+
+     #title{
+       color: coral;
+     }
+    a {
+      color:black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    p{
+      font-size: 18px;
+    }
+    .saw{
+      color: gray;
+    }
+    .menu{
+    font-size: 25px;
+  }
+    .title{
+      font-size: 30px;
+    }
+    h1{
+      font-size: 60px;
+      text-align: center;
+      margin-left: auto;
+    }
+    h2{
+      padding:20px;
+      margin: 20px;
+      font-size: 40px;
+      color: #6B9900;
+    }
+    #menu{
+      display:grid;
+      border-top: 3px solid white;
+      display: inline-block;
+      padding-left: 20px;
+    }
+    #sf{
+      display: grid;
+      border-top: 3px solid white;
+      border-left: 3px solid white;
+      display: inline-block;
+      font-size: 20px;
+    }
+    gird{
+      display: grid;
+      grid-template-columns: ;
+    }
+
+    body{
+      background-color: #FAED7D;
+    }
+  </style>
 </head>
-
 <body>
-  <h1><a href="index.html">리틀포레스트</a></h1>
-<ol>
-  <li><a href="1.html">줄거리</a></li>
-  <li><a href="2.html">등장인물</a></li>
-  <li><a href="3.html">리뷰</a></li>
-</ol>
-<h1>등장인물</h1>
-<p style="margin-top: 40px;"><img src="kim.jpg" width="30%">
-  <strong><a href="https://people.search.naver.com/search.naver?where=nexearch&sm=tab_ppn&query=%EA%B9%80%ED%83%9C%EB%A6%AC&os=2079411&ie=utf8&key=PeopleService" target="_blank" title="인물정보_김태리">김태리</a></strong>(혜원역)</p>
-
- <p style="margin-top: 40px;"><img src="jin.jpg" width="30%">
-   <strong><a href="https://people.search.naver.com/search.naver?where=nexearch&sm=tab_ppn&query=%EC%A7%84%EA%B8%B0%EC%A3%BC&os=2647664&ie=utf8&key=PeopleService" target="_blank" title="인물정보_진기주">진기주</a></strong>(은숙역)</p>
-
-<p style="margin-top: 40px;"> <img src="ryu.jpg" width="30%">
-  <strong><a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EB%A5%98%EC%A4%80%EC%97%B4&sm=tab_etc&ie=utf8&key=PeopleService&os=2061956" target="_blank" title="인물정보_류준열">류준열</a></strong>(재하역)</p>
-<p style="margin-top: 40px;"> <img src="moon.jpg" width="30%">
-  <strong><a href="https://people.search.naver.com/search.naver?where=nexearch&sm=tab_ppn&query=%EB%AC%B8%EC%86%8C%EB%A6%AC&os=94309&ie=utf8&key=PeopleService" target="_blank" title="인물정보_문소리">문소리</a></strong>(혜원엄마역)</p>
+  <h1><a href="index.html" id="title">Movie Recommendation</a></h1>
 <br><br>
+
+<h2>Science Fiction</h2>
+<br>
+<div id="grid">
+  <div id="menu">
+    <ul>
+     <li><a href="1.html" class="menu">Romance</a></li>
+     <li><a href="2.html" class="menu">Science Fiction</a></li>
+     <li><a href="3.html" class="menu">Thriller</a></li>
+    </ul>
+  </div>
+
+  <div id="sf">
+      <div style="float:left; width:300px;"><img src="inception.jpg" width="100%"></div>
+      <br><br>
+      <div class="title" style="float:left; text-align: center;"><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=52515" target="_blank" title="inception">Inception</a></strong></div>
+      <br><br>
+      Rate: 9.21<br>
+      Release Date: 2010.07.21<br>
+      Director: Christopher Nolan<br><br>
+    <div style="float:right; width:300px;"><img src="Inter.jpg" width="100%"></div>
+    <div class="title" style="float:right; text-align: right;"><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=45290" target="_blank" title="interstellar">Interstellar</a></strong></div>
+    <br><br>
+    Rate: 9.11 <br>
+    Release Date: 2014.11.06<br>
+    Director: Christopher Nolan
+  </div>
+</div>
 </body>
 </html>
